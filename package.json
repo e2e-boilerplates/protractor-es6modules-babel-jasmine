@@ -1,0 +1,33 @@
+{
+  "name": "protractor-es6-module-babel-jasmine",
+  "version": "1.0.0",
+  "description": "Protractor end-to-end test automation boilerplate project. Using ES6 modules, babel &amp; jasmine",
+  "scripts": {
+    "upadte-webderiver": "webdriver-manager update",
+    "test": "protractor protractor.conf.js",
+    "lint": "npx eslint --ext .js ./ --fix"
+  },
+  "keywords": [
+    "protractor",
+    "boilerplate",
+    "example"
+  ],
+  "author": "Girma Nigusse",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "@babel/runtime": "^7.6.3",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jasmine": "^3.5.0",
+    "prettier": "^1.18.2",
+    "protractor": "^5.4.2"
+  }
+}
