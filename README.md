@@ -3,8 +3,8 @@ Protractor end-to-end test automation boilerplate project. Using ES6 modules, ba
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/protractor-es6module-babel-jasmine.git
-    cd protractor-es6module-babel-jasmine
+    git clone git@github.com:e2e-boilerplates/protractor-es6modules-babel-jasmine.git
+    cd protractor-es6modules-babel-jasmine
     npm install
     npm run upadte-webderiver
     npm run test
