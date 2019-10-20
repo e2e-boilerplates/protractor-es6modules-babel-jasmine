@@ -1,4 +1,4 @@
-# Protractor: (es6module, babel, jasmine)
+# Protractor: (ES6 modules, babel, jasmine)
 Protractor end-to-end test automation boilerplate project. Using ES6 modules, babel &amp; jasmine
 
 ## Getting Started
