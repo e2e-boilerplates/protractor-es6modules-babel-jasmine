@@ -22,7 +22,6 @@ describe("google search", () => {
 
     const title = await browser.getTitle();
     const words = title.split(" ");
-
     expect(words[0]).toBe("Cheese!");
   });
 });
