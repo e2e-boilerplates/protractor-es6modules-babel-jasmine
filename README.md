@@ -1,5 +1,6 @@
 # Protractor: (ES6 modules, babel, jasmine)
-Protractor end-to-end test automation boilerplate project. Using ES6 modules, babel &amp; jasmine
+
+Protractor end-to-end test automation boilerplate project. Using ES6 modules, babel, and jasmine.
 
 ## Getting Started
 
@@ -8,7 +9,3 @@ Protractor end-to-end test automation boilerplate project. Using ES6 modules, ba
     npm install
     npm run upadte-webderiver
     npm run test
-
-To update webdriver to an older or newer version of Chrome browser
-    
-    npm run upadte-webderiver -- --chrome.version=77.0.3865.120

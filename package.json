@@ -1,7 +1,7 @@
 {
   "name": "protractor-es6module-babel-jasmine",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate project. Using ES6 modules, babel &amp; jasmine",
+  "description": "Protractor end-to-end test automation boilerplate project. Using ES6 modules, babel and jasmine",
   "scripts": {
     "upadte-webderiver": "npx webdriver-manager update",
     "test": "npx protractor protractor.conf.js",
@@ -9,11 +9,13 @@
   },
   "keywords": [
     "protractor",
+    "es6 modules",
     "babel",
+    "jasmine",
     "boilerplate",
     "example"
   ],
-  "author": "Girma Nigusse",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.6.4",
