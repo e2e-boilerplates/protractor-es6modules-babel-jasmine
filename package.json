@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Protractor end-to-end test automation boilerplate project. Using ES6 modules, babel and jasmine",
   "scripts": {
-    "upadte-webderiver": "npx webdriver-manager update",
     "test": "npx protractor protractor.conf.js",
+    "test-ci": "npx protractor protractor-ci.conf.js",
+    "upadte-webderiver": "npx webdriver-manager update",
     "lint": "npx eslint --ext .js ./ --fix"
   },
   "keywords": [
@@ -39,5 +40,8 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
+  },
+  "dependencies": {
+    "puppeteer": "^2.0.0"
   }
 }
