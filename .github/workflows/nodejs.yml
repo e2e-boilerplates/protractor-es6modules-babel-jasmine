@@ -1,4 +1,4 @@
-name: protractor-es6module-babel-jasmine
+name: protractor-es6modules-babel-jasmine
 
 on: [push]
 
