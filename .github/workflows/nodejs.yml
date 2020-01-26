@@ -23,7 +23,7 @@ jobs:
       - name: LINT
         run: |
           npm run lint
-      - name: UPDATE-WEBDRIVER, TEST
+      - name: UPDATE WEBDRIVER
         run: |
           npm run upadte-webderiver
       - name: TEST
