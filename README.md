@@ -1,4 +1,4 @@
-# Protractor: (ES6 modules, babel, jasmine)
+# Protractor: (ES6-Modules, BabelJS, Jasmine and Expect)
 
 [![GitHub Actions status | e2e-boilerplates/protractor-es6-modules-babeljs-jasmine-expect](https://github.com/e2e-boilerplates/protractor-es6-modules-babeljs-jasmine-expect/workflows/protractor-es6-modules-babeljs-jasmine-expect/badge.svg)](https://github.com/e2e-boilerplates/protractor-es6-modules-babeljs-jasmine-expect/actions?workflow=protractor-es6-modules-babeljs-jasmine-expect)
 
