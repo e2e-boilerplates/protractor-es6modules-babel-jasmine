@@ -1,12 +1,12 @@
 {
-  "name": "protractor-es6module-babel-jasmine",
+  "name": "protractor-es6-module-babel-jasmine-expect",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate project. Using ES6 modules, babel and jasmine",
+  "description": "Protractor end-to-end test automation boilerplate project. Using ES6-modules, BabelJS, Jasmine and Expect",
   "scripts": {
-    "test": "npx protractor protractor.conf.js",
-    "test-ci": "npx protractor protractor-ci.conf.js",
+     "lint": "npx eslint --ext .js ./ --fix",
     "upadte-webderiver": "npx webdriver-manager update",
-    "lint": "npx eslint --ext .js ./ --fix"
+    "test": "npx protractor protractor.conf.js",
+    "test-ci": "npx protractor protractor-ci.conf.js"
   },
   "keywords": [
     "protractor",
