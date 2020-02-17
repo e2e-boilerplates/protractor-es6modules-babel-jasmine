@@ -1,9 +1,9 @@
 name: protractor-es6-modules-babeljs-jasmine-expect
 
-on: 
+on:
   push:
   schedule:
-    - cron: '0 0 2-30/2 * *'
+    - cron: "0 0 2-30/2 * *"
 
 jobs:
   build:
@@ -25,7 +25,7 @@ jobs:
           npm run lint
       - name: UPDATE WEBDRIVER
         run: |
-          npm run upadte-webderiver
+          npm run upadte-webderiver-ci
       - name: TEST
         run: |
-          npm run test-ci
+          npm run test
