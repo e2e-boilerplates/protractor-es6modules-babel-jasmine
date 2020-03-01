@@ -1,25 +1,6 @@
 {
-  "name": "protractor-es6-module-babeljs-jasmine-expect",
-  "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate, using ES6 modules, BabelJS, Jasmine and Expect",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "upadte-webderiver": "npx webdriver-manager update",
-    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36",
-    "test": "npx protractor"
-  },
-  "keywords": [
-    "protractor",
-    "es6",
-    "e2e",
-    "babel",
-    "jasmine",
-    "boilerplate",
-    "example",
-    "e2e test"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "description": "Protractor end-to-end test automation boilerplate, using ES6 modules, BabelJS, Jasmine and Expect",
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.8.4",
@@ -31,6 +12,7 @@
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-json": "^2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
     "jasmine": "3.5.0",
@@ -42,5 +24,30 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "keywords": [
+    "babeljs",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "es6",
+    "example",
+    "expect",
+    "integration test",
+    "jasmine",
+    "protractor"
+  ],
+  "license": "MIT",
+  "name": "protractor-es6-modules-babeljs-jasmine-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/protractor-es6-modules-babeljs-jasmine-expect.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "upadte-webderiver": "npx webdriver-manager update",
+    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36",
+    "test": "npx protractor"
+  },
+  "version": "1.0.0"
 }
