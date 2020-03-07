@@ -27,22 +27,22 @@
   },
   "keywords": [
     "babeljs",
-    "es modules",
+    "es",
     "expect",
     "jasmine",
     "protractor"
   ],
   "license": "MIT",
-  "name": "protractor-es6-modules-babeljs-jasmine-expect",
+  "name": "protractor-es-modules-babeljs-jasmine-expect",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/protractor-es6-modules-babeljs-jasmine-expect.git"
+    "url": "git+https://github.com/e2e-boilerplates/protractor-es-modules-babeljs-jasmine-expect.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx protractor",
-    "upadte-webderiver": "npx webdriver-manager update",
-    "upadte-webderiver-ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36"
+    "update-webdriver": "npx webdriver-manager update",
+    "update-webdriver:ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36"
   },
   "version": "1.0.0"
 }
