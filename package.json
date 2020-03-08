@@ -41,8 +41,7 @@
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
     "test": "npx protractor",
-    "update-webdriver": "npx webdriver-manager update",
-    "update-webdriver:ci": "npx webdriver-manager update --versions.chrome=79.0.3945.36"
+    "update-webdriver": "npx webdriver-manager update"
   },
   "version": "1.0.0"
 }

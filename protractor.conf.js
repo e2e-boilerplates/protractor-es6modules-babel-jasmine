@@ -6,6 +6,10 @@ const headed = {
   specs,
   capabilities: {
     browserName: "chrome"
+  },
+  onPrepare: () => {
+    /* eslint-disable-next-line global-require */
+    require("@babel/register");
   }
 };
 
@@ -17,6 +21,10 @@ const headless = {
     chromeOptions: {
       args: ["--headless", "--no-sandbox", "--disable-gpu"]
     }
+  },
+  onPrepare: () => {
+    /* eslint-disable-next-line global-require */
+    require("@babel/register");
   }
 };
 
