@@ -6,8 +6,12 @@ Protractor end-to-end test automation boilerplate, using ES Modules, Babel, Jasm
 
 ## Getting Started
 
-    	git clone git@github.com:e2e-boilerplate/protractor-es-modules-babel-jasmine-expect.git
-    	cd protractor-es-modules-babel-jasmine-expect
-    	npm install
-    	npm run update-webdriver
-    	npm run test
+1. git clone git@github.com:e2e-boilerplate/protractor-es-modules-babel-jasmine-expect.git
+
+2. cd protractor-es-modules-babel-jasmine-expect
+
+3. npm install
+
+4. npm run update-webdriver
+
+5. npm run test
