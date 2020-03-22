@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/protractor-es-modules-babel-jasmine-expect/issues"
   },
@@ -7,7 +7,7 @@
     "jasmine": "3.5.0",
     "protractor": "5.4.3"
   },
-  "description": "Protractor end-to-end test automation boilerplate. using ES Modules, Babel, Jasmine and Expect.",
+  "description": "Protractor end-to-end test automation boilerplate. Using ES Modules, Babel, Jasmine and Expect.",
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.9.0",
@@ -17,7 +17,7 @@
     "@babel/runtime": "7.9.2",
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
-    "eslint-config-prettier": "6.10.1",
+    "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
@@ -32,7 +32,12 @@
   },
   "keywords": [
     "babel",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
     "expect",
+    "integration test",
     "jasmine",
     "protractor"
   ],
