@@ -5,12 +5,12 @@ const headed = {
   directConnect,
   specs,
   capabilities: {
-    browserName: "chrome"
+    browserName: "chrome",
   },
   onPrepare: () => {
     /* eslint-disable-next-line global-require */
     require("@babel/register");
-  }
+  },
 };
 
 const headless = {
@@ -19,13 +19,13 @@ const headless = {
   capabilities: {
     browserName: "chrome",
     chromeOptions: {
-      args: ["--headless", "--no-sandbox", "--disable-gpu"]
-    }
+      args: ["--headless", "--no-sandbox", "--disable-gpu"],
+    },
   },
   onPrepare: () => {
     /* eslint-disable-next-line global-require */
     require("@babel/register");
-  }
+  },
 };
 
 const config = process.env.GITHUB_ACTIONS ? headless : headed;
