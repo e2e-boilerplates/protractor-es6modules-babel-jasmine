@@ -1,5 +1,14 @@
+
+      
 const directConnect = true;
-const specs = ["spec/*.spec.js"];
+const specs = ["spec/*.spec.ts"];
+const framework = "jasmine";
+
+const mochaOpts = {};
+
+const onPrepare = () => {
+  browser.waitForAngularEnabled(false);
+};
 
 const headed = {
   directConnect,
@@ -7,10 +16,9 @@ const headed = {
   capabilities: {
     browserName: "chrome",
   },
-  onPrepare: () => {
-    /* eslint-disable-next-line global-require */
-    require("@babel/register");
-  },
+  framework,
+  mochaOpts,
+  onPrepare
 };
 
 const headless = {
@@ -18,16 +26,15 @@ const headless = {
   specs,
   capabilities: {
     browserName: "chrome",
-    chromeOptions: {
-      args: ["--headless", "--no-sandbox", "--disable-gpu"],
-    },
+      chromeOptions: {
+        args: ["--headless", "--no-sandbox", "--disable-gpu"],
+      },
   },
-  onPrepare: () => {
-    /* eslint-disable-next-line global-require */
-    require("@babel/register");
-  },
+  framework,
+  mochaOpts,
+  onPrepare
 };
 
-const config = process.env.GITHUB_ACTIONS ? headless : headed;
-
+const config = process.env.GITHUB_ACTIONS ? headless : headed;    
+           
 exports.config = config;
