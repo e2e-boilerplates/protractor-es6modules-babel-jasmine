@@ -2,7 +2,7 @@
     
 # Protractor Boilerplate
     
-Protractor end-to-end test automation boilerplate, Using ES Modules, Babel, Jasmine and Expect.
+Protractor end-to-end test automation boilerplate, Using [ES Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/), [Babel](https://babeljs.io), [Jasmine](https://jasmine.github.io) and Expect.
     
 ## Getting Started
     
