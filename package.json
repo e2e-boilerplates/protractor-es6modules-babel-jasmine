@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "jasmine": "3.5.0",
-    "protractor": "5.4.4"
+    "protractor": "7.0.0"
   },
   "description": "Protractor end-to-end test automation boilerplate. Using ES Modules, Babel, Jasmine and Expect.",
   "devDependencies": {
@@ -15,7 +15,6 @@
     "@babel/preset-env": "7.9.6",
     "@babel/register": "7.9.0",
     "@babel/runtime": "7.9.6",
-    "babel-jest": "26.0.1",
     "eslint": "7.0.0",
     "eslint-config-airbnb-base": "14.1.0",
     "eslint-config-prettier": "6.11.0",
@@ -37,6 +36,7 @@
     "boilerplate",
     "e2e",
     "e2e tests",
+    "es modules",
     "example",
     "expect",
     "integration test",
