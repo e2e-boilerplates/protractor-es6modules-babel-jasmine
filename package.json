@@ -33,15 +33,16 @@
   },
   "keywords": [
     "babel",
-    "boilerplate",
+    "es modules",
+    "expect",
+    "jasmine",
+    "protractor",
     "e2e",
     "e2e tests",
-    "es modules",
-    "example",
-    "expect",
+    "boilerplate",
     "integration test",
-    "jasmine",
-    "protractor"
+    "test automation",
+    "javascript"
   ],
   "license": "MIT",
   "lint-staged": {
