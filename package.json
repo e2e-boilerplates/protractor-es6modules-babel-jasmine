@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/protractor-es-modules-babel-jasmine-expect/issues"
   },
   "dependencies": {
-    "jasmine": "3.6.0",
+    "jasmine": "3.6.1",
     "protractor": "7.0.0"
   },
   "description": "Protractor end-to-end test automation boilerplate. Using ES Modules, Babel, Jasmine and Expect.",
